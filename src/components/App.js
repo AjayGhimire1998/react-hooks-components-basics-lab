@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function NavBar() {
   return (
     <nav>
@@ -16,12 +17,24 @@ function Home() {
   );
 }
 
+
+function About(){
+  return(
+      <div id="about">
+          Lorem ipsum, dolor sit 
+      amet consectetur adipisicing elit. 
+      Magni fuga doloribus dolorem maxime labore et, 
+      odio, velit, iure neque numquam
+      excepturi eaque debitis nobis at aperiam in cum id corrupti.
+      </div>
+  )
+}
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
